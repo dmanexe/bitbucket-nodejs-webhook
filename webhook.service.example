@@ -1,0 +1,13 @@
+[Unit]
+Description=Bitbucket Webhook
+After=network.target
+
+[Service]
+Environment=NODE_PORT=xxxxx 
+Type=simple
+User=xxxxx
+ExecStart=/path/to/node /path/to/webhook.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
