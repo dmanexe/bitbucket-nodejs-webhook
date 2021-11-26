@@ -1,3 +1,5 @@
+This project is not updated for Dec 2021. May or may not work. Worth a shot.
+
 # bitbucket-nodejs-webhook
 A simple BitBucket <-> NodeJS webhook. This uses the GUID from the HTTP header 'x-hook-uuid' from the push request to verify that it's BitBucket.
 
@@ -29,7 +31,7 @@ sudo systemctl status webhook
 Make sure you unblock the port you set the new Node server to run on. Also, if you can't find it, you look in the webhooks section in BitBucket, you'll get your x-hook-uuid.
 
 # Support
-Email + Paypal (show some love!) - dman.exe@gmail.com
+ETH: 0x0463955E40709010000D5eD03603D859C57B5cE0
 
 # License
 GNU General Public License v3.0
